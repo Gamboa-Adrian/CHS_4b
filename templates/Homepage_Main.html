@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="#">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacred Hospital - Home</title>
+    <!--<link rel="stylesheet" href="styles.css">-->
+    <!--<script src="script.js"></script>-->
+    <style>
+
+        body {
+            background: url(https://sacredheartmalolos.com/wp-content/uploads/2022/07/IMG_7844-1024x868.png) no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            background-color: rgba(255,255,255,0.8);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007BFF;
+        }
+        p {
+            font-size: 18px;
+        }
+        a {
+            display: block;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+
+        .news-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: row;
+        }
+        .news-article {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            display: inline-block;
+            width: 30%;
+        }
+        .news-article:hover {
+            transform: scale(1.05);
+        }
+        .news-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sacred Heart Hospital</h1>
+        <nav>
+            <ul>
+                <!--<li><a href="/Event_Catalog">News</a></li><li><a href="/About_Us">About Us</a></li><li><a href="/Homepage2">Hospital Database</a></li>-->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Quality Healthcare Services</h2>
+            <p>Discover our state-of-the-art medical facilities and dedicated healthcare professionals who are committed to your well-being.</p>
+            <a href="/About_Us">Learn More About Us</a>
+        </section>
+
+        <section>
+            <h2>Make an Appointment</h2>
+            <p>Make an appointment with a member of the hospital staff with the convenience of your home.</p>
+            <a href="/Book_Doctor">Book Doctor</a>
+        </section>
+
+
+        <section>
+            <h2>Medical News</h2>
+            <div class="news-container">
+                <div class="news-article">
+                    <img class="news-image" src="https://bepartofresearch.nihr.ac.uk/dA/732d5bab53/Health%20breakthroughs.jpg" alt="News Article 1">
+                    <h3>Latest Breakthrough in Medicine</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="news-article">
+                    <img class="news-image" src="https://images.everydayhealth.com/images/black-and-hispanic-patients-more-likely-to-die-after-surgery-1440x810.jpg" alt="News Article 2">
+                    <h3>New Research on Health</h3>
+                    <p>Proin id est in semper turpis bibendum tincidunt.</p>
+                </div>
+                <div class="news-article">
+                    <img class="news-image" src="https://healthinnovationmanchester.com/wp-content/uploads/2021/05/HInM-Annual-Report-20-21-Websize.jpg" alt="News Article 3">
+                    <h3>Healthcare Innovation Report</h3>
+                    <p>Cras non ligula a orci sodales efficitur nec eu libero.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Centralized Hospital Database</h2>
+            <p>Access the different essential information that the medical community uses.</p>
+            <a href="/Homepage2">Hospital Database</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Sacred Heart Hospital</p>
+    </footer>
+</body>
+</html>
